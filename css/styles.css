@@ -332,3 +332,15 @@ footer {
       display: none;
   }
 }
+/* Ajustes para el botón de WhatsApp */
+/* Mostrar texto en móviles - Agregar al final del archivo */
+@media (max-width: 767px) {
+  .whatsapp-float, .share-float {
+      width: auto !important;
+      padding: 0 15px !important;
+  }
+  .button-text {
+      display: inline !important;
+      font-size: 14px;
+  }
+}
